@@ -76,6 +76,7 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -92,9 +93,9 @@ header .profile-image:hover {
   margin-top: 2rem;
 }
 .card {
-  margin: 30px;
+  margin: 10px;
   padding: 20px 40px 40px;
-  max-width: 500px;
+  max-width: 400px;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
@@ -142,7 +143,7 @@ ul.skills {
   background: #0399ff;
 }
 
-.hobbies li {margin: .5rem;5rem;x;}
+.hobbies li {margin: 0.5rem;/* text-align: left; */x;text-align: l;}
 
 footer {
   width: 100%;
@@ -190,6 +191,25 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
+
+/* Contact Session */
+.contact-image {
+  width: 30%;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  margin: 20px;
+}
+.card-contact {
+  margin: 10px;
+  padding: 20px 40px 40px;
+  max-width: 400px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
