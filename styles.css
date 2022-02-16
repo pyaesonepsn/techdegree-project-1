@@ -202,7 +202,7 @@ a.social:hover {
 .card-contact {
   margin: 10px;
   padding: 20px 40px 40px;
-  max-width: 400px;
+  width: 50%;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
@@ -210,6 +210,12 @@ a.social:hover {
   transition: all .5s;
 }
 
+.mail{
+  color: blue;
+}
+a.mail:hover{
+  opacity: 1;
+}
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
