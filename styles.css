@@ -143,7 +143,10 @@ ul.skills {
   background: #0399ff;
 }
 
-.hobbies li {margin: 0.5rem;/* text-align: left; */x;text-align: l;}
+.hobbies li {
+  margin: 0.5rem;
+  text-align: left;
+}
 
 footer {
   width: 100%;
