@@ -203,7 +203,7 @@ a.social:hover {
 .card-contact {
   margin: 10px;
   padding: 20px 40px 40px;
-  width: 50%;
+  flex-grow: 3;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
